@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/jack/Projects/Learning/Sudoku/CPP/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Sudoku.dir/src/main.cpp.o -c /home/jack/Projects/Learning/Sudoku/CPP/src/main.cpp",
+  "file": "/home/jack/Projects/Learning/Sudoku/CPP/src/main.cpp",
+  "output": "CMakeFiles/Sudoku.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/jack/Projects/Learning/Sudoku/CPP/build",
+  "command": "/usr/bin/g++ -g -std=gnu++11 -o CMakeFiles/Sudoku.dir/src/sudoku.cpp.o -c /home/jack/Projects/Learning/Sudoku/CPP/src/sudoku.cpp",
+  "file": "/home/jack/Projects/Learning/Sudoku/CPP/src/sudoku.cpp",
+  "output": "CMakeFiles/Sudoku.dir/src/sudoku.cpp.o"
+}
+]
