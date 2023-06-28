@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Sudoku.dir/src/main.cpp.o CMakeFiles/Sudoku.dir/src/sudoku.cpp.o -o /home/jack/Projects/Learning/Sudoku/CPP/bin/Sudoku  -lncurses 
