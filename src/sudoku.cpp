@@ -1,6 +1,11 @@
 #include "sudoku.h"
 #include <iostream>
+#ifdef WIN32
+#include <ncurses/ncurses.h>
+#endif
+#ifdef UNIX
 #include <ncurses.h>
+#endif
 #include <algorithm>
 
 Sudoku::Sudoku(): board{
