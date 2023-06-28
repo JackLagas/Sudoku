@@ -14,6 +14,7 @@ Sudoku::Sudoku(): board{
         0, 0, 2, 0, 1, 0, 0, 0, 0,
         0, 0, 0, 0, 4, 0, 0, 0, 9
     }{
+    isRunning = true;
     cursorX = 0;
     cursorY = 0;
     InitializeBoard();
@@ -124,6 +125,9 @@ void Sudoku::GetInput(){
             if(cursorY > 8)
                 cursorY = 0;
             break;
+	case 'q':
+	    isRunning = false;
+	    break;
         default:
             if(isdigit(key)){
                 if(!lockedBoard[9 * cursorY + cursorX])
@@ -182,7 +186,7 @@ bool Sudoku::HasWon(){
 
 void Sudoku::Run(){
     
-    while(!HasWon()){
+    while(!HasWon() && isRunning){
         DisplayNCurses();
         GetInput();
     }

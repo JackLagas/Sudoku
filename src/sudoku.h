@@ -9,7 +9,7 @@ private:
     std::array<bool, BOARD_SIZE * BOARD_SIZE> lockedBoard;
     std::array<bool, BOARD_SIZE * BOARD_SIZE> errorBoard;
     int cursorX, cursorY;
-
+    bool isRunning;
 
     void InitializeBoard();
     void DisplayBoard();
